@@ -29,6 +29,7 @@ struct CoinRowView: View {
                 Text("BTC")
                     .font(.caption)
                     .padding(.leading, 6)
+                // add here
             }
         }
     }
