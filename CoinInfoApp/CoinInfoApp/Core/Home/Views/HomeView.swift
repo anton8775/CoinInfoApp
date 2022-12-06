@@ -14,7 +14,10 @@ struct HomeView: View {
                 TopMoversView()
                 
                 Divider()
-            }.navigationTitle("Prices")
+                
+                AllCoinsView()
+            }
+            .navigationTitle("Prices")
         }
     }
 }

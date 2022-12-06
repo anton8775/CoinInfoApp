@@ -28,10 +28,27 @@ struct CoinRowView: View {
                 
                 Text("BTC")
                     .font(.caption)
-                    .padding(.leading, 6)
-                // add here
+                    .padding(.leading, 4)
             }
+            .padding(.leading, 2)
+            
+            Spacer()
+            
+            VStack(alignment: .trailing, spacing: 4){
+                Text("$20 000.00")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .padding(.leading, 4)
+                
+                Text("-5.60%")
+                    .font(.caption)
+                    .padding(.leading, 4)
+                    .foregroundColor(.red)
+            }
+            .padding(.leading, 2)
         }
+        .padding(.horizontal)
+        .padding(.vertical, 4)
     }
 }
 
