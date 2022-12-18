@@ -35,7 +35,7 @@ class HomeViewModel: ObservableObject{
                 print("Coins \(coins)")
             } catch let error {
                 print("Failed to decode with error \(error)")
-                // -+
+                // -
             }
             
         }.resume()
