@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D11B16BF2957AA98007AC229 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D11B16BE2957AA98007AC229 /* Kingfisher */; };
+		D11B16C12957AC1C007AC229 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11B16C02957AC1C007AC229 /* Double.swift */; };
 		D14061112939694200796A2B /* CoinInfoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14061102939694200796A2B /* CoinInfoAppApp.swift */; };
 		D14061132939694200796A2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14061122939694200796A2B /* ContentView.swift */; };
 		D14061152939694300796A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14061142939694300796A2B /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D11B16C02957AC1C007AC229 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		D140610D2939694200796A2B /* CoinInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14061102939694200796A2B /* CoinInfoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinInfoAppApp.swift; sourceTree = "<group>"; };
 		D14061122939694200796A2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		D1C1A919293AB57200B267B1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D11B16C02957AC1C007AC229 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				D14061132939694200796A2B /* ContentView.swift in Sources */,
 				D14061112939694200796A2B /* CoinInfoAppApp.swift in Sources */,
 				D1B3DB2F293BEAF6001DA53F /* CoinRowView.swift in Sources */,
+				D11B16C12957AC1C007AC229 /* Double.swift in Sources */,
 				D1B3DB2B293BDE5E001DA53F /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
