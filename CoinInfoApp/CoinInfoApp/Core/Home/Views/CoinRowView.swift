@@ -14,7 +14,7 @@ struct CoinRowView: View {
     
     var body: some View {
         HStack{
-            Text("\(coin.marketCapRank ?? 1)")
+            Text("\(coin.marketCapRank )")
                 .font(.caption)
                 .foregroundColor(.gray)
             
@@ -56,8 +56,4 @@ struct CoinRowView: View {
     }
 }
 
-//struct CoinRowView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CoinRowView()
-//    }
-//}
+
